@@ -1,47 +1,147 @@
 body {
-  background-color: #acdbdf;
-  color: #010101;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  background-color:#87ceeb;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
+h1 {
+  font-size:90px;
+  margin-top: 75px;
+  font-family: 'Sacramento', cursive;
+  color:#2298c9;
+
+
 }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#2298c9;
+    line-height:2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#2298c9;
+  }
 
 hr {
-  border-style: dotted none none;
-  border-color: gray;
-  border-width: 4px;
-  width: 5%;
+    border-style: dotted none none;
+    border-color: #2298c9;
+    border-width: 5px;
+    width: 3%;
 }
 
-h1, h2, h3 {
-  color: #69779b;
-  text-align: center;
+/*Classes*/
+.topcontainer {
+  background-color: #87ceeb;
+  position: relative;
+  padding-top: 100px;
 }
 
-p {
-  text-align: center;
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
-ul, ol {
-  max-width: 8%;
-  margin: auto;
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
+.pro {
+  text-decoration: underline;
+  font-weight:normal;
+}
+
+.middlecontainer
+{
+  background-color: #87ceeb;
+  padding-top:50px;
+
+}
+
+.profile
+{
+  margin-bottom:70px;
+}
+
+.img-html5
+{ width:100px;
+  height:100px;
+  float:left;
+  margin-right:10px;}
+
+.img-css3
+{ width:100px;
+  height:100px;
+  float:right;
+  margin-left:10px;}
+
+.skill-row
+{
   text-align: left;
+margin:100px auto 100px auto;
+  width:50%;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.skilldesc
+{
+  line-height:2;
 }
 
-tr {
-  text-align: center;
+.butnpadding{
+  margin-bottom:50px;
 }
 
-form {
-  text-align: center;
+.butn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2298c9;
+  padding: 10px 20px 10px 20px;
+  border: solid #2297c9 2px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.bottomcontainer
+{
+  background-color: #2298c9;
+  height:150px;
+  margin-top:50px;
+}
+
+.footercopyright{
+  color:white;
+}
+
+.footerlink{
+  margin-top:50px;
+  color:#1a7399;
+  text-decoration:none;
+}
+
+.bottompadding
+{
+  position:relative;
+  top:40px;
 }
